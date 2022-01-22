@@ -203,17 +203,17 @@
 
 @font-face {
     font-family: "southmore";
-    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/southmore/Southmore.tff");
+    src: url("southmore/Southmore.tff");
 }
 
 @font-face {
     font-family: "kudofun";
-    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/kudofun/Kudofun.tff");
+    src: url("kudofun/Kudofun.tff");
 }
 
 @font-face {
     font-family: "athina";
-    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/athina/AthinaDEMO.otf");
+    src: url("athina/AthinaDEMO.otf");
 }
 
 
