@@ -1,0 +1,252 @@
+
+.line1{
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+/* image 1 */
+.image1{
+    position: relative;
+    width: 566px;
+    margin-right: -100px;
+}
+
+.KR_image{
+    display: block;
+    border-radius: 25px;
+}
+
+.KR_image:hover{
+    transform: scale(1.04);
+}
+
+.KR_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 566px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "kudofun";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.KR_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.KR_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.KR_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.KR_title{
+    font-size: 70px;
+}
+
+.KR_description{
+    font-size: 30px;
+}
+
+
+
+/* image2 */
+.image2{
+    position: relative;
+    width: 566px;
+}
+
+.GB_image{
+    display: block;
+    border-radius: 25px;
+}
+
+.GB_image:hover{
+    transform: scale(1.04);
+}
+
+.GB_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 744px;
+    height: 566px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "kudofun";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.GB_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.GB_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.GB_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.GB_title{
+    font-size: 70px;
+}
+
+.GB_description{
+    font-size: 30px;
+}
+
+.line2{
+    display: flex;
+}
+
+/* image3 */
+.image3{
+    position: relative;
+    width: 566px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.BG_image{
+    display: block;
+    border-radius: 25px;
+}
+
+.BG_image:hover{
+    transform: scale(1.04);
+}
+
+.BG_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 790px;
+    height: 566px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "kudofun";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.BG_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.BG_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.BG_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.BG_title{
+    font-size: 70px;
+}
+
+.BG_description{
+    font-size: 30px;
+}
+
+
+.pagetitle2{
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: "southmore";
+}
+
+/* dropdown menu*/
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    top: 60px;
+    right: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+    font-family: "athina";
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 8px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  @font-face {
+    font-family: "southmore";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/southmore/Southmore.tff");
+}
+
+@font-face {
+    font-family: "kudofun";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/kudofun/Kudofun.tff");
+}
+
+@font-face {
+    font-family: "athina";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/athina/AthinaDEMO.otf");
+}

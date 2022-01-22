@@ -1,0 +1,53 @@
+body{background-color: rgb(166, 166, 166);}
+
+/*keanu reeves drawing*/
+.KR_image{
+    text-align: center;
+}
+
+.actualKR_image{
+    max-width: 60%;
+    height: auto; 
+    padding: 10px;
+}
+
+#KR_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*ghost buster icon*/
+.GB_image{
+    text-align: center;
+}
+
+.actualGB_image{
+    max-width: 70%;
+    height: auto; 
+    padding: 10px;
+    text-align: center;
+}
+
+#GB_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*bacteria.guru drawing*/
+.BG_image{
+    text-align: center;
+}
+
+.actualBG_image{
+    max-width: 70%;
+    height: auto; 
+    padding: 10px;
+}
+
+#BG_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

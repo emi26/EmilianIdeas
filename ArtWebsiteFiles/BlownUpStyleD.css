@@ -1,0 +1,53 @@
+body{background-color:black;}
+
+/*Self portrait*/
+.SP_image{
+    text-align: center;
+}
+
+.actualSP_image{
+    text-align: center;
+    max-width: 40%;
+    height: auto;
+}
+
+#SP_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*Hand drawing*/
+.HD_image{
+    text-align: center;
+}
+
+.actualHD_image{
+    max-width: 50%;
+    height: auto; 
+    padding: 10px;
+}
+
+#HD_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*fitness drawing*/
+.FD_image{
+    text-align: center;
+}
+
+.actualFD_image{
+    max-width: 40%;
+    height: auto; 
+    padding: 10px;
+}
+
+#FD_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+

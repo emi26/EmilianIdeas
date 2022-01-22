@@ -1,0 +1,155 @@
+body{background-color:black}
+
+/*pizza clay*/
+.Pizza_image{
+    text-align: center;
+}
+
+.actualPizza_image{
+    max-width: 80%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Pizza_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*cake clay*/
+.Cake_image{
+    display: flex;
+    justify-content: center;
+}
+
+.actualCake_image{
+    max-height: 1000%;
+    padding: 10px;
+    text-align: center;
+}
+
+#Cake_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*cashew clay*/
+.Cashew_image{
+    text-align: center;
+}
+
+.actualCashew_image{
+    max-width: 100%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Cashew_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*cookie clay*/
+.Cookie_image{
+    text-align: center;
+}
+
+.actualCookie_image{
+    max-width: 50%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Cookie_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*bracelet clay*/
+.Bracelet_image{
+    text-align: center;
+}
+
+.actualBracelet_image{
+    max-width: 80%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Bracelet_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*donut clay*/
+.Donut_image{
+    text-align: center;
+}
+
+.actualDonut_image{
+    max-width: 80%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Donut_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*bacon clay*/
+.Bacon_image{
+    text-align: center;
+}
+
+.actualBacon_image{
+    max-width: 70%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Bacon_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*necklace1*/
+.Necklace1_image{
+    text-align: center;
+}
+
+.actualNecklace1_image{
+    max-width: 41%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Necklace1_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/*necklace2*/
+.Necklace2_image{
+    text-align: center;
+}
+
+.actualNecklace2_image{
+    max-width: 41%;
+    height: auto; 
+    padding: 10px;
+}
+
+#Necklace2_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

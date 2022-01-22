@@ -1,0 +1,657 @@
+
+/*line 1*/
+.line1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 130px;
+}
+
+/* image 1 */
+.image1{
+    position: relative;
+    width: 566px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.pizza_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.pizza_image:hover{
+    transform: scale(1.04);
+}
+
+.pizza_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.pizza_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.pizza_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.pizza_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.pizza_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.pizza_description{
+    font-size: 30px;
+    font-family: "kudofun";
+    text-align: center;
+}
+
+
+/* image2 */
+.image2{
+    position: relative;
+    width: 566px;
+}
+
+.cake_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.cake_image:hover{
+    transform: scale(1.04);
+}
+
+.cake_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.cake_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.cake_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.cake_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.cake_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.cake_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+#SP_button{
+    font-size: 10px;
+    color: aliceblue;
+}
+
+
+
+/*line2*/
+.line2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 150px;
+}
+
+/* image3 */
+.image3{
+    position: relative;
+    width: 566px;
+    margin-right: -70px;
+    margin-bottom: 50px;
+}
+
+.cashew_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.cashew_image:hover{
+    transform: scale(1.04);
+}
+
+.cashew_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 426px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.cashew_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.cashew_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.cashew_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.cashew_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.cashew_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+
+/* image4 */
+.image4{
+    position: relative;
+    width: 566px;
+}
+
+.cookie_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.cookie_image:hover{
+    transform: scale(1.04);
+}
+
+.cookie_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 426px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.cookie_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.cookie_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.cookie_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.cookie_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.cookie_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+/*line3*/
+.line3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 70px;
+}
+
+/* image5 */
+.image5{
+    position: relative;
+    width: 566px;
+    margin-right: 60px;
+}
+
+.bracelet_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.bracelet_image:hover{
+    transform: scale(1.04);
+}
+
+.bracelet_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.bracelet_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.bracelet_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.bracelet_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.bracelet_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.bracelet_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+
+/* image6 */
+.image6{
+    position: relative;
+    width: 566px;
+    margin-bottom: 50px;
+}
+
+.donut_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.donut_image:hover{
+    transform: scale(1.04);
+}
+
+.donut_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.donut_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.donut_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.donut_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.donut_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.donut_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+/*line4*/
+.line4{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+/* image7 */
+.image7{
+    position: relative;
+    width: 566px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.bacon_image{
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.bacon_image:hover{
+    transform: scale(1.04);
+}
+
+.bacon_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 315px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.bacon_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.bacon_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.bacon_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.bacon_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.bacon_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+
+/* image8 */
+.image8{
+    position: relative;
+    width: 566px;
+}
+
+.necklace1_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.necklace1_image:hover{
+    transform: scale(1.04);
+}
+
+.necklace1_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 315px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.necklace1_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.necklace1_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.necklace1_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.necklace1_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.necklace1_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+/* image9 */
+.image9{
+    position: relative;
+    width: 566px;
+}
+
+.necklace2_image{
+    display: flex;
+    border-radius: 25px;
+}
+
+.necklace2_image:hover{
+    transform: scale(1.04);
+}
+
+.necklace2_overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 315px;
+    height: 420px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    font-family: "southmore";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.necklace2_overlay > *{
+    transform: translateY(15px);
+    transition: transform 0.4s;
+}
+
+.necklace2_overlay:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.necklace2_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.necklace2_title{
+    font-size: 70px;
+    font-family: "kudofun";
+}
+
+.necklace2_description{
+    font-size: 30px;
+    font-family: "kudofun";
+}
+
+/* page title*/
+.pagetitle3{
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: "southmore";
+}
+
+@font-face {
+    font-family: "southmore";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/southmore/Southmore.tff");
+}
+
+@font-face {
+    font-family: "kudofun";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/kudofun/Kudofun.tff");
+}
+
+@font-face {
+    font-family: "athina";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/athina/AthinaDEMO.otf");
+}
+
+
+/* dropdown menu*/
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    top: 60px;
+    right: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+    font-family: "athina";
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 8px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+
+  
+  
+

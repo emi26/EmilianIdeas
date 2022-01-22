@@ -1,0 +1,27 @@
+.PCRSgallary{
+    text-align: center;
+}
+
+.PCRSgallary img{
+    transition: 1s;
+    padding: 20px;
+    height: 420px;
+    border-radius: 25px;
+}
+
+.PCRSgallary img:hover {
+    transform: scale(1.04);
+
+}
+
+.pagetitle3{
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: "southmore";
+}
+
+@font-face {
+    font-family: "southmore";
+    src: url("/Users/emiliadavey/Downloads/Art Website Stuff/southmore/Southmore.tff");
+}
