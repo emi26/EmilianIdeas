@@ -79,21 +79,15 @@ body {
 
 @font-face {
     font-family: "southmore";
-    src: url("southmore/Southmore.tff") format("tff");
+    src: url("Southmore.otf") format("otf");
 }
 
 @font-face {
     font-family: "kudofun";
-    src: url("kudofun/Kudofun.tff") format("tff");
+    src: url("kudofun/Kudofun.otf") format("otf");
 }
 
 @font-face {
     font-family: "athina";
     src: url("athina/AthinaDEMO.otf") format("otf");
-}
-
-
-@font-face {
-    font-family: "Mariolite";
-    src: url("Mariolite/Mariolite.ttf");
 }
