@@ -18,10 +18,15 @@
     text-align: center;
     color: black;
     font-size: 80px;
-    font-family: "southmore";
+    font-family: "mydream";
 }
 
 @font-face {
     font-family: "southmore";
     src: url("southmore/Southmore.tff");
+}
+
+@font-face {
+    font-family: "mydream";
+    src: url("my_dream_2/My\ Dream.otf");
 }

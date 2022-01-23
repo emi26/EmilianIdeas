@@ -36,7 +36,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,12 +61,12 @@
 
 .pizza_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .pizza_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
     text-align: center;
 }
 
@@ -97,7 +97,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,12 +122,12 @@
 
 .cake_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .cake_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 #SP_button{
@@ -174,7 +174,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,12 +199,12 @@
 
 .cashew_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .cashew_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 
@@ -234,7 +234,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,12 +259,12 @@
 
 .cookie_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .cookie_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 /*line3*/
@@ -303,7 +303,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -328,12 +328,12 @@
 
 .bracelet_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .bracelet_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 
@@ -364,7 +364,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -389,12 +389,12 @@
 
 .donut_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .donut_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 /*line4*/
@@ -433,7 +433,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -458,12 +458,12 @@
 
 .bacon_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .bacon_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 
@@ -493,7 +493,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -518,12 +518,12 @@
 
 .necklace1_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .necklace1_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 /* image9 */
@@ -552,7 +552,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -577,20 +577,20 @@
 
 .necklace2_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .necklace2_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 /* page title*/
 .pagetitle3{
     text-align: center;
     color: black;
-    font-size: 80px;
-    font-family: "southmore";
+    font-size: 100px;
+    font-family: "mydream";
 }
 
 @font-face {
@@ -599,13 +599,18 @@
 }
 
 @font-face {
-    font-family: "kudofun";
-    src: url("kudofun/Kudofun.tff");
+    font-family: "dreamroad";
+    src: url("dream_road/DreamRoad.otf");
 }
 
 @font-face {
     font-family: "athina";
     src: url("athina/AthinaDEMO.otf");
+}
+
+@font-face {
+    font-family: "mydream";
+    src: url("my_dream_2/My\ Dream.otf");
 }
 
 

@@ -71,23 +71,27 @@ body {
     text-align: center;
     color:white;
     font-size: 120px;
-    font-family: "athina";
-    margin-top: 80px;
+    font-family: "mydream";
+    margin-top: 100px;
 }
-
 
 
 @font-face {
     font-family: "southmore";
-    src: url("Southmore.otf") format("otf");
+    src: url("Southmore.otf");
 }
 
 @font-face {
-    font-family: "kudofun";
-    src: url("kudofun/Kudofun.otf") format("otf");
+    font-family: "dreamroad";
+    src: url("dreamroad/dreamroad.otf");
 }
 
 @font-face {
     font-family: "athina";
-    src: url("athina/AthinaDEMO.otf") format("otf");
+    src: url("athina/AthinaDEMO.otf");
+}
+
+@font-face {
+    font-family: "mydream";
+    src: url("my_dream_2/My\ Dream.otf");
 }

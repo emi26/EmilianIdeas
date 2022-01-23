@@ -33,7 +33,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "southmore";
+    font-family: "mydream";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,12 +58,12 @@
 
 .SP_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .SP_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
     text-align: center;
 }
 
@@ -120,12 +120,12 @@
 
 .HD_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .HD_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 #SP_button{
@@ -185,20 +185,20 @@
 
 .FD_title{
     font-size: 70px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 .FD_description{
     font-size: 30px;
-    font-family: "kudofun";
+    font-family: "dreamroad";
 }
 
 /* page title*/
 .pagetitle{
     text-align: center;
     color: black;
-    font-size: 80px;
-    font-family: "southmore";
+    font-size: 100px;
+    font-family: "mydream";
 }
 
 @font-face {
@@ -206,14 +206,20 @@
     src: url("southmore/Southmore.tff");
 }
 
-@font-face {
-    font-family: "kudofun";
-    src: url("kudofun/Kudofun.tff");
-}
 
 @font-face {
     font-family: "athina";
     src: url("athina/AthinaDEMO.otf");
+}
+
+@font-face {
+    font-family: "mydream";
+    src: url("my_dream_2/My\ Dream.otf");
+}
+
+@font-face {
+    font-family: "dreamroad";
+    src: url("dream_road/DreamRoad.otf");
 }
 
 

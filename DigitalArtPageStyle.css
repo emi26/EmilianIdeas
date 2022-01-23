@@ -32,7 +32,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "kudofun";
+    font-family: "dreamroad";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +91,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "kudofun";
+    font-family: "dreamroad";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +156,7 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     color:aliceblue;
-    font-family: "kudofun";
+    font-family: "dreamroad";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,8 +191,8 @@
 .pagetitle2{
     text-align: center;
     color: black;
-    font-size: 80px;
-    font-family: "southmore";
+    font-size: 100px;
+    font-family: "mydream";
 }
 
 /* dropdown menu*/
@@ -242,11 +242,16 @@
 }
 
 @font-face {
-    font-family: "kudofun";
-    src: url("kudofun/Kudofun.tff");
+    font-family: "dreamroad";
+    src: url("dream_road/DreamRoad.otf");
 }
 
 @font-face {
     font-family: "athina";
     src: url("athina/AthinaDEMO.otf");
+}
+
+@font-face {
+    font-family: "mydream";
+    src: url("my_dream_2/My\ Dream.otf");
 }
