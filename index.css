@@ -1,0 +1,99 @@
+body {
+    background-image: url("Mushroom_cropped.JPG");
+    background-color: white;
+    background-size: cover;
+   }
+
+   *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top:10px;
+}
+.gallery .image1{
+    flex: 30%;
+    overflow: hidden;
+    justify-content: center;
+    cursor: pointer;
+}
+.gallery .image1 img{
+    width: 80%;
+    height: 80%;
+    transition: 0.4s;
+}
+.gallery .image1:hover img{
+    transform: scale(1.02);
+}
+
+
+.gallery .image2{
+    flex: 30%;
+    overflow: hidden;
+    justify-content: center;
+    cursor: pointer;
+}
+.gallery .image2 img{
+    width: 90%;
+    height: 90%;
+    transition: 0.4s;
+}
+.gallery .image2:hover img{
+    transform: scale(1.02);
+}
+
+
+.gallery .image3{
+    flex: 30%;
+    overflow: hidden;
+    justify-content: center;
+    cursor: pointer;
+}
+.gallery .image3 img{
+    width: 65%;
+    height: 65%;
+    transition: 0.4s;
+    margin-left:70px;
+    margin-top:25px;
+}
+.gallery .image3:hover img{
+    transform: scale(1.02);
+}
+
+/* page title*/
+.page_title{
+    text-align: center;
+    color:white;
+    font-size: 120px;
+    font-family: "southmore";
+    margin-top: 80px;
+}
+
+
+
+@font-face {
+    font-family: "southmore";
+    src: url("southmore/Southmore.tff");
+}
+
+@font-face {
+    font-family: "kudofun";
+    src: url("kudofun/Kudofun.tff");
+}
+
+@font-face {
+    font-family: "athina";
+    src: url("athina/AthinaDEMO.otf");
+}
+
+
+@font-face {
+    font-family: "Mariolite";
+    src: url("Mariolite/Mariolite.ttf");
+}
